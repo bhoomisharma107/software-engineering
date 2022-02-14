@@ -1,0 +1,176 @@
+If the estimate is unrealistically low, the project will be understaffed from its outset and, worse still, the resulting excessive overtime or staff burnout will cause attrition and compound the problems facing the project. Overestimation is not the answer. Indeed, overestimating a project can have the same effects as any other inaccurate estimate.
+
+SOFTWARE ESTIMATION
+The definition of the verb to estimate is to produce a statement of the approximate value of some quantity. Estimates are based upon incomplete, imperfect knowledge and assumptions about the future. Most importantly, however, all estimates have uncertainty. There is no such thing as a precise, single-value estimate. Managers should always ask how large the uncertainty of an estimate is! A manager can use the size of this uncertainty in conjunction with other factors such as perceived risks, funding constraints, and business objectives to make decisions about a project.
+
+CORE METRICS CATEGORIES
+Ideally, at a minimum the following attributes of a software project would be measured:
+
+Cost, in terms of staff effort, phase effort and total effort
+Defects found or corrected, and the effort associated with them
+Process characteristics such as development language, process model and technology
+Project dynamics including changes or growth in requirements or code and schedule
+Project progress (measuring performance against schedule, budget, etc.)
+Software structure in terms of size and complexity
+Project managers, stakeholders, and staff members can use software metrics to more accurately estimate progress toward project milestones, especially when historical (trailing) indicators or trend data are available.
+
+Size and cost estimates are not the same as targets, although estimates may be used as targets. In principle, estimates should be used to assess the feasibility of targets (i.e., budget or schedule constraints) and to confirm that the current status of a project indicates that final project targets are feasible.
+
+PROJECT ESTIMATION PROCESS
+A software estimation process that is integrated with the software development process can help projects establish realistic and credible plans to implement the project requirements and satisfy commitments. It also can support other management activities by providing accurate and timely planning information.
+
+Ideally, an estimate should be produced using the ten-step process described in Figure 1.
+
+STEP ONE: ESTABLISH ESTIMATE SCOPE AND PURPOSE
+Define and document estimate expectations. When all participants understand the scope and purpose of the estimate, you’ll not only have a baseline against which to gauge the effect of future changes; you’ll also head off misunderstandings among the project group and clear up contradictory assumptions about what is expected.
+
+An estimate should be considered a living document; as data changes or new information becomes available, it should be documented and factored into the estimate in order to maintain the project’s integrity.
+
+STEP TWO: ESTABLISH TECHNICAL BASELINE, GROUND RULES, AND ASSUMPTIONS
+To establish a reasonable technical baseline, you must first identify the functionality included in the estimate. If detailed functionality is not known, groundrules and assumptions should clearly state what is and isn’t included in the estimate. Issues of COTS, reuse, and other assumptions should be documented as well.
+
+Groundrules and assumptions form the foundation of the estimate and, although in the early stages of the estimate they are preliminary and therefore rife with uncertainty, they must be credible and documented. Review and redefine these assumptions regularly as the estimate moves forward.
+
+STEP THREE: COLLECT DATA
+Any estimate, by definition, encompasses a range of uncertainty, so you should express estimate inputs as least, likely and most rather than characterizing them as single data points. Using ranges for inputs permits the development of a viable initial estimate even before you have defined fully the scope of the system you are estimating.
+
+Certain core information must be obtained in order to ensure a consistent estimate. Not all data will come from one source and it will not all be available at the same time, so a comprehensive data collection form will aid your efforts. As new information is collected, you will already have an organized and thorough system for documenting it.
+
+SOFTWARE DATA COLLECTION PROCESS
+Data collection can be a frustrating and problematic process. Over the years, Galorath’s analysts have evolved certain practices that may assist you.
+
+First you must motivate potential data providers to participate. Describe the value their information will bring to the project, and assure them that their data will be sanitized and will only be used for the purposes discussed. If possible, provide an incentive for sources to participate, such as a sanitized copy of the eventual database or a benchmark of their data relative to the rest of the database.
+
+Be sure you are asking the right people the right questions. Certain types of data are likely to be most easily obtained from the software development team, while other categories of information are more easily and accurately provided by the estimation personnel or the program office. Contractors often will not contribute subcontractors’ data, so get commitments from subcontractors also.
+
+Once you have obtained buy-in from the data providers, execute any necessary nondisclosure agreements so that this will not delay your collection process. Sources may feel more comfortable using their own companies’ nondisclosure agreements; in this case, carefully review the text to ensure that the terms are acceptable. Avoid agreements containing clauses requiring exclusivity or destruction of data.
+
+Equip your sources with data collection forms and instructions as early as possible, in both hard copy and electronic formats. This enables participants to familiarize themselves with the format and scope to expect when you visit them for the formal interview.
+
+Clearly define the data you are soliciting from each respondent, and recognize that even if you do provide clear definitions, he or she may ignore them. Assume that people will not always read the instructions, and acknowledge that some providers may misrepresent the data intentionally.
+
+Follow up to encourage data providers to review the instructions and complete drafts of the collection forms in preparation for your visit.
+
+Help the provider help himself. On the data collection form, identify which inputs are required, highly desirable or desirable .
+
+During the face-to-face interview, ask pertinent questions to confirm insofar as possible that the data is realistic and valid. Determine whether code in question was hand-generated or autogenerated, because these correlate to effort differently. Capture the amount of reuse as well as total size, and ensure that COTS are really COTS.
+
+It may be that some of the data you collect will not make sense, despite your efforts to clarify and understand it. Rather than eliminating it, assign it a grade to indicate your confidence in it.
+
+If a personal interview is not possible, you must at least have an appropriate person review the data before it is entered into the database.
+
+When you have determined that the supplied data is valid and complete, publish the corrected raw data. Be sure to identify which forms contain draft material and which have been thoroughly vetted.
+
+Next, normalize the data via a well-documented process to a standard set of activities, phases, etc. Convert sizing data to your language of interest if necessary. Compare the data points to established metrics to determine whether they are reasonable, and rate the quality of the data so your analysts will consider it accordingly. Identify the normalized data as such.
+
+During the data collection process, project management should:
+
+Identify the activities necessary to accomplish the project’s purpose.
+Determine dependencies among activities.
+Define a schedule for conducting the required activities.
+Define and locate the resources needed to accomplish the activities and determine how much they will cost (by resource or category).
+Monitor and control the resources in order to achieve the required result on schedule.
+Using an automated software cost and schedule tool like SEER-SEM can provide the analyst with time-saving tools (SEER-SEM knowledge bases save time in the data collection process).
+
+STEP FOUR: SOFTWARE SIZING
+If you lack the time to complete all the activities described in the ten-step process, prioritize the estimation effort: Spend the bulk of the time available on sizing (sizing databases and tools can help save time in this process).
+
+Size is generally the most significant (but certainly not the only) cost and schedule driver. Overall scope of a software project is defined by identifying not only the amount of new software that must be developed, but also must include the amount of preexisting, COTS, and other software that will be integrated into the new system. In addition to estimating product size, you will need to estimate any rework that will be required to develop the product, which will generally be expressed as source lines of code (SLOC) or function points, although there are other possible units of measure. To help establish the overall uncertainty, the size estimate should be expressed as a least—likely—mostrange.
+
+PREDICTING SIZE
+Whenever possible, start the process of size estimation using formal descriptions of the requirements such as the customer’s request for proposal or a software requirements specification. You should reestimate the project as soon as more scope information is determined. The most widely used methods of estimating product size are:
+
+Expert opinion – This is an estimate based on recollection of prior systems and assumptions regarding what will happen with this system, and the experts’ past experience.
+Analogy – A method by which you compare a proposed component to a known component it is thought to resemble, at the most fundamental level of detail possible. Most matches will be approximate, so for each closest match, make additional size adjustments as necessary. A relative sizing approach such as SEER-AccuScope can provide viable size ranges based on comparisons to known projects.
+Formalized methodology – Use of automated tools and/or pre-defined algorithms such as counting the number of subsystems or classes and converting them to function points.
+Statistical sizing – Provides a range of potential sizes that is characterized by least, likely, and most.
+STEPS TO ESTIMATING SOFTWARE SIZE
+If you want to contain the risk of unexpected cost growth for your project, it is essential that you use a software sizing method that is consistent and repeatable, and that you regularly reestimate the size of the product and the associated cost of the project as specs change. By applying the sizing steps described below, you can make consistent and relevant size projections and use them to derive cost estimates.
+
+Establish a baseline definition of the size metric you will use, and identify a normalization process to use if size information is provided in a format different from the definition chosen.
+Define sizing objectives—are you trying to describe the size of individual computer programs, plan major milestones in the estimation process, or adjust for project replanning? Varying granularities of sizing detail will be appropriate.
+Plan data and resource requirements of the sizing activity.
+Identify and evaluate software requirements, a set of software specifications that are as unambiguous as possible.
+Use several independent techniques and sources and put findings in a table such as the one shown in Figure 2.
+Track the accuracy of the estimate versus actuals as the project progresses, and re-estimate the product size periodically with actual data.
+Sizing databases can provide analogy and basis for new project estimates.
+
+Use the Galorath sizing methodology to quantify size and size uncertainty. This includes preparing as many size estimates as time permits and putting them all in a table (Figure 2), then choosing the size range from the variety of sources.
+
+STEP FIVE: PREPARE BASELINE ESTIMATE
+Budget and schedule are derived from estimates, so if an estimate is not accurate, the resulting schedules and budgets will be inaccurate also. Given the importance of the estimation task, developers who want to improve their software estimation skills should understand and embrace some basic practices. First, trained, experienced, and skilled people should be assigned to size the software and prepare the estimates. Second, it is critically important that they be given the proper technology and tools. And third, the project manager must define and implement a mature, documented, and repeatable estimation process.
+
+To prepare the baseline estimate there are various approaches that can be used, including guessing (which is not recommended), using existing productivity data exclusively (also not recommended), the bottom-up approach, expert judgment, and cost models.
+
+BOTTOM-UP ESTIMATING
+Bottom-up estimating, which is also referred to as “grassroots” or “engineering” estimating, entails decomposing the software to its lowest levels by function or task and then summing the resulting data into work elements. This approach can be very effective for estimating the costs of smaller systems. It breaks down the required effort into traceable components that can be effectively sized, estimated, and tracked; the component estimates can then be rolled up to provide a traceable estimate that is comprised of individual components that are more easily managed. You thus end up with a detailed basis for your overall estimate.
+
+SOFTWARE COST MODELS
+Different cost models have different information requirements. However, any cost model will require the user to provide at least a few — and sometimes many — project attributes or parameters. This information describes the project, its characteristics, the team’s experience and training levels, and various other attributes the model requires to be effective, such as the processes, methods, and tools that will be used.
+
+Parametric cost models provide a means for applying a consistent method for subjecting uncertain situations to rigorous mathematical and statistical analysis. Thus they are more comprehensive than other estimating techniques and help to reduce the amount of bias that goes into estimating software projects. They also provide a means for organizing the information that serves to describe the project, which facilitates the identification and analysis of risk.
+
+A cost model uses various algorithms to project the schedule and cost of a product from specific inputs. Those who attempt to merely estimate size and divide it by a productivity factor may be missing the mark. The people, the products, and the process are all key components of a successful software project. Cost models range from simple, single formula models to complex models that involve thousands of calculations.
+
+ORGANIZING THE ESTIMATING PROCESS
+While a rigorous, repeatable estimation process will most likely result in an accurate range projection of the size and cost of an application, estimator inexperience or bias and varying experience levels among estimators can undermine the potential for achieving a valid and accurate estimate. To overcome this fundamental truth, you must use a documented and standardized estimation process and apply standardized templates to collect and itemize tasks.
+
+You can further offset the effects of these biases by implementing the Delphi estimation method, in which several expert teams or individuals, each with an equal voice and an understanding up front that there are no correct answers, start with the same description of the task at hand and generate estimates anonymously, repeating the process until consensus is reached.
+
+ACTIVITY-BASED ESTIMATES
+Another way to estimate the various elements of a software project is to begin with the requirements of the project and the size of the application, and then, based on this information, define the required tasks, which will serve to identify the overall effort that will be required.
+
+The major cost drivers on a typical project are focused on the non-coding tasks that must be adequately considered, planned for, and included in any estimate of required effort. Of course, not every project will require all of these tasks, and you should tailor the list to the specific requirements of your project, adding and deleting tasks as necessary and modifying task descriptions if required, and then build a task hierarchy — which usually takes the form of a WBS — that represents how the work will be organized and performed. The resulting work breakdown structure is the backbone of the project plan and provides a means to identify the tasks to be implemented on a specific project. It is not a to-do list of every possible activity required for the project; it does provide a structure of tasks that, when completed, will result in satisfaction of all project commitments.
+
+STEP SIX: QUANTIFY RISKS AND RISK ANALYSIS
+The best managers of software projects seem to have an uncanny ability to anticipate what can happen to their projects and devise just-in-time mitigation approaches to avoid the full impacts of the problems. In reality, this ability is simply the skillful application of well known risk management techniques to the well known problems of software management.
+
+Before we explore the risk management process and how to apply it to the risks associated with sizing and estimation, it is important to understand what a risk is and that a risk, in itself, does not necessarily pose a threat to a software project if it is recognized and addressed before it becomes a problem.
+
+Many events occur during software development. Risk is characterized by a loss of time, or quality, money, control, understanding, and so on. The loss associated with a risk is called the risk impact.
+
+We must have some idea of the probability that the event will occur. The likelihood of the risk, measured from 0 (impossible) to 1 (certainty) is called the risk probability. When the risk probability is 1, then the risk is called a problem, since it is certain to happen.
+
+For each risk, we must determine what we can do to minimize or avoid the impact of the event. Risk control involves a set of actions taken to reduce or eliminate a risk.
+
+Risk management enables you to identify and address potential threats to a project, whether they result from internal issues or conditions or from external factors that you may not be able to control. Problems associated with sizing and estimating software potentially can have dramatic negative effects. The key word here is potentially, which means that if problems can be foreseen and their causes acted upon in time, effects can be mitigated. The risk management process is the means of doing so.
+
+Many managers incorrectly perceive that if they identify risks that subsequently become problems they will be held responsible for the problems. In fact, the opposite is true. By using risk management techniques to anticipate potential risks, the manager is protected against liability because if the problem does occur, it can be demonstrated that the cause was beyond what any prudent manager could have foreseen.
+
+Although cost, schedule, and product performance risks are interrelated, they can also be analyzed independently. In practice, risks must be identified as specific instances in order to be manageable. Statistical risk/uncertainty analysis should be a part of your schedule and effort estimation process.
+
+STEP SEVEN: ESTIMATE VALIDATION AND REVIEW
+At this point in the process, your estimate should already be reasonable. It is still important to validate your methods and your results, which is simply a systematic confirmation of the integrity of an estimate. By validating the estimate, you can be more confident that your data is sound, your methods are effective, your results are accurate, and your focus is properly directed.
+
+There are many ways to validate an estimate. Both the process used to build the estimate and the estimate itself must be evaluated. Ideally, the validation should be performed by someone who was not involved in generating the estimate itself, who can view it objectively. The analyst validating an estimate should employ different methods, tools and separately collected data than were used in the estimate under review.
+
+When reviewing an estimate you must assess the assumptions made during the estimation process. Make sure that the adopted ground rules are consistently applied throughout the estimate. Below-the-line costs and the risk associated with extraordinary requirements may have been underestimated or overlooked, while productivity estimates may have been overstated. The slippery slope of requirements creep may have created more uncertainty than was accounted for in the original estimate.
+
+A rigorous validation process will expose faulty assumptions, unreliable data and estimator bias, providing a clearer understanding of the risks inherent in your projections. Having isolated problems at their source, you can take steps to contain the risks associated with them, and you will have a more realistic picture of what your project will actually require to succeed.
+
+Despite the costs of performing one, a formal validation should be scheduled into every estimation project, before the estimate is used to establish budgets or constraints on your project process or product engineering. Failing to do so may result in much greater downstream costs, or even a failed project.
+
+STEP EIGHT: GENERATE A PROJECT PLAN
+The process of generating a project plan includes taking the estimate and allocating the cost and schedule to a function and task-oriented work breakdown structure.
+
+To avoid tomorrow’s catastrophes, a software manager must confront today’s challenges. A good software manager must possess a broad range of technical software development experience and domain knowledge, and must be able to manage people and the unique dynamics of a team environment, recognize project and staff dysfunction, and lead so as to achieve the expected or essential result.
+
+Some managers, mainly due to lack of experience, are not able to evaluate what effects their decisions will have over the long run. They either lack necessary information, or incorrectly believe that if they take the time to develop that information the project will suffer as a result. Other managers make decisions based on what they think higher management wants to hear. This is a significant mistake. A good software manager will understand what a project can realistically achieve, even if it is not what higher management wants. His job is to explain the reality in language his managers can understand. Both types of “problem manager,” although they may mean well, either lead a project to an unintended conclusion or, worse, drift down the road to disaster.
+
+Software management and planning problems have been recognized for decades as the leading causes of software project failures. In addition to the types of management choices discussed above, three other issues contribute to project failure: bad management decisions, incorrect focus, and destructive politics. Models such as SEER-SEM handle these issues by guiding you in making appropriate changes in the environment related to people, process, and products.
+
+STEP NINE: DOCUMENT ESTIMATE AND LESSONS LEARNED
+Each time you complete an estimate and again at the end of the software development, you should document the pertinent information that constitutes the estimate and record the lessons you learned. By doing so, you will have evidence that your process was valid and that you generated the estimate in good faith, and you will have actual results with which to substantiate or calibrate your estimation models. Be sure to document any missing or incomplete information and the risks, issues, and problems that the process addressed and any complications that arose. Also document all the key decisions made during the conduct of the estimate and their results and the effects of the actions you took. Finally, describe and document the dynamics that occurred during the process, such as the interactions of your estimation team, the interfaces with your clients, and trade-offs you had to make to address issues identified during the process.
+
+You should conduct a lessons-learned session as soon as possible after the completion of a project while the participants’ memories are still fresh. Lessons-learned sessions can range from two team members meeting to reach a consensus about the various issues that went into the estimation process to highly structured meetings conducted by external facilitators who employ formal questionnaires. No matter what form it may take, it is always better to hold a lessons-learned meeting than not, even if the meeting is a burden on those involved. Every software project should be used as an opportunity to improve the estimating process.
+
+STEP TEN: TRACK PROJECT THROUGHOUT DEVELOPMENT
+REFINING ESTIMATES THROUGHOUT PROJECT
+Estimating software size, cost, and schedule should be an ongoing process. Preliminary estimates may be required to bid a job or to initiate the development process, or you may need to conduct a cost/benefit or return-on-investment (ROI) analysis to evaluate a project’s feasibility. Preliminary estimates are the hardest to develop because of the incomplete nature of the information available and the other factors discussed.
+
+You can improve the accuracy of a preliminary estimate by using the sizing methodology identified in Step 4 or by using two different estimation techniques and having your analysts normalize the differences.
+
+Once a project has started, you should use the estimates as a basis for performance measurement and project control. Throughout the conduct of the project you will need to monitor the actual effort and duration of tasks and/or phases against planned values to ensure you have the project under control.
+
+SUMMARY
+Software cost estimation is a difficult process but a necessary part of a successful software development. You can help ensure useful results by adopting a process that is standardized and repeatable. Several of the steps we have discussed, particularly those that do not result directly in the production of the estimate (Steps 1, 6, and 9) are often deferred or, worse still, not performed at all, often for what appear to be good reasons such as a lack of adequate time or resources or a reluctance to face the need to devise a plan if a problem is detected. Sometimes you simply have more work than you can handle and such steps don’t seem absolutely necessary. Sometimes management is reluctant to take these steps, not because the resources are not available, but because managers do not want to really know what they may learn as a result of scoping their estimates, quantifying and analyzing risks, or validating their estimates. This can be a costly attitude because in reality, every shortcut results in dramatic increases in project risks.
