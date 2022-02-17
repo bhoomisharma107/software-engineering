@@ -1,0 +1,23 @@
+n the build and fix model (also referred to as an ad hoc model), the software is developed without any specification or design. An initial product is built, which is then repeatedly modified until it (software) satisfies the user. That is, the software is developed and delivered to the user. The user checks whether the desired functions ‘are present. If not, then the software is changed according to the needs by adding, modifying or deleting functions. This process goes on until the user feels that the software can be used productively. However, the lack of design requirements and repeated modifications result in loss of acceptability of software. Thus, software engineers are strongly discouraged from using this development approach.
+
+                                         build and fix model or ad hoc model
+
+This model includes the following two phases.
+
+Build: In this phase, the software code is developed and passed on to the next phase.
+Fix: In this phase, the code developed in the build phase is made error free. Also, in addition to the corrections to the code, the code is modified according to the user’s requirements.
+Various advantages and disadvantages associated with the build and fix model are listed in Table.
+
+              Table Advantages and Disadvantages of Build and Fix Model
+
+Advantages
+
+Disadvantages
+
+Requires less experience to execute or manage other than the ability to program.
+Suitable for smaller software.
+Requires less project planning.
+No real means is available of assessing the progress, quality, and risks.
+Cost of using this process model is high as it requires rework until user’s requirements are accomplished.
+Informal design of the software as it involves unplanned procedure.
+Maintenance of these models is problematic.
