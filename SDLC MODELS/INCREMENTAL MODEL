@@ -1,0 +1,33 @@
+
+Next →← Prev
+Incremental Model
+Incremental Model is a process of software development where requirements divided into multiple standalone modules of the software development cycle. In this model, each module goes through the requirements, design, implementation and testing phases. Every subsequent release of the module adds function to the previous release. The process continues until the complete system achieved.
+
+Incremental Model
+The various phases of incremental model are as follows:
+1. Requirement analysis: In the first phase of the incremental model, the product analysis expertise identifies the requirements. And the system functional requirements are understood by the requirement analysis team. To develop the software under the incremental model, this phase performs a crucial role.
+
+2. Design & Development: In this phase of the Incremental model of SDLC, the design of the system functionality and the development method are finished with success. When software develops new practicality, the incremental model uses style and development phase.
+
+3. Testing: In the incremental model, the testing phase checks the performance of each existing function as well as additional functionality. In the testing phase, the various methods are used to test the behavior of each task.
+
+
+
+4. Implementation: Implementation phase enables the coding phase of the development system. It involves the final coding that design in the designing and development phase and tests the functionality in the testing phase. After completion of this phase, the number of the product working is enhanced and upgraded up to the final system product
+
+When we use the Incremental Model?
+When the requirements are superior.
+A project has a lengthy development schedule.
+When Software team are not very well skilled or trained.
+When the customer demands a quick release of the product.
+You can develop prioritized requirements first.
+Advantage of Incremental Model
+Errors are easy to be recognized.
+Easier to test and debug
+More flexible.
+Simple to manage risk because it handled during its iteration.
+The Client gets important functionality early.
+Disadvantage of Incremental Model
+Need for good planning
+Total Cost is high.
+Well defined module interfaces are needed.
